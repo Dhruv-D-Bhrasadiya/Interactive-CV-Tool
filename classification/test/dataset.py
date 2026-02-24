@@ -1,5 +1,7 @@
+import os
 import traceback
 import shutil as sh
+from dataset_manager import get_data
 
 # List ALL datasets you want to test
 DATASETS_TO_TEST = [
